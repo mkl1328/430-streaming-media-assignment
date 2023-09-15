@@ -26,7 +26,7 @@ const onRequest = (request, response) => {
     case '/bird.mp4':
       mediaHandler.getMedia(request, response, '../client/bird.mp4', 'video/mp4');
       break;
-    case 'bling.mp3':
+    case '/bling.mp3':
       mediaHandler.getMedia(request, response, '../client/bling.mp3', 'audio/mpeg');
       break;
     default:
